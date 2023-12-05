@@ -1,0 +1,8 @@
+- pageObjects folder berisi banyak page atau screeen berarti buat folder untuk setiap pages.
+- setiap folder (ex: loginPage) berisi dua file yaitu 
+- untuk locator ngegunain file yaml. locator sendiri bakal dimasukkan ke variabel agar bisa diakses ke luar. Lalu si keyword tinggal dipanggil
+- file kedua berisi file robot yang isinya keyword digunakan untuk actionnya.
+- folder suites berisi test cases yang akan kita buat.
+- folder base yang berisi keyword-keyword yang bisa kita pake secara general. contoh open app / close app
+- [...] Setup dijalankan sebelum, [...] Tearsdown dijalankan setelah.
+- Test Setup dan Test Tearsdown dilakukan dalam scope test, ada juga Suite Setup dan Suite Tearsdown dilakukan dalam scope suites.

@@ -1,0 +1,7 @@
+button-search: '//*[@resource-id="com.example.myapplication:id/search_flight"]'
+input-search: '//*[@resource-id="com.example.myapplication:id/flight_number"]'
+number-flight: '123'
+button-search-page: '//*[@resource-id="com.example.myapplication:id/searchFlight"]'
+result-invalid-search: '//*[@text="Please enter valid Flight Number"]'
+
+
