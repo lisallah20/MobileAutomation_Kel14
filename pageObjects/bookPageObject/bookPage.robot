@@ -44,8 +44,17 @@ Select End Date
     Click Element    ${choose-end-date}
     Click Element    ${button-ok-date}
 
+Select an End Date that is more than 1 day
+    Click Element    ${end-date}
+    Wait Until Element Is Visible    ${choose-end-date-2}
+    Click Element    ${choose-end-date-2}
+    Click Element    ${button-ok-date}
+
 Select Radio Button Flight
     Click Element    ${radio-button-flight}
+
+Select Radio Button Flight And Hotel
+    Click Element    ${radio-button-flightHotel}
 
 Select Checkbox Day
     Click Element    ${checkbox-day}
