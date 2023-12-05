@@ -67,3 +67,8 @@ Confirm Your Booking
     Click Element    ${button-price-1}
     Click Element    ${button-confirm}
     Wait Until Element Is Visible    ${textview-flight-is-booked}
+
+Confirm Your Booking Without Click price
+    Wait Until Element Is Visible    ${textview-click-price}
+    Click Element    ${button-confirm}
+    Wait Until Element Is Visible    ${textview-flight-is-booked}
