@@ -131,3 +131,33 @@ Verify Flight Booking With More Than 1 Day On The Bar Tab Round Trip
     Click Button Book Flight
     Confirm Your Booking
     Close Application
+
+Verify Flight Booking without Date and Radio Button Flight On The Bar Tab One Way
+    Open Flight Application
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button On Login Page
+    Click Button Book
+    Select Bar Tab One Way
+    Select From City
+    Select To City
+    Select Class
+    Click Button Book Flight
+    Confirm Your Booking
+    Close Application
+
+Verify Flight Booking Without Date, Radio Button Flight, and Confirm Your Booking On The Bar Tab One Way
+    Open Flight Application
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button On Login Page
+    Click Button Book
+    Select Bar Tab One Way
+    Select From City
+    Select To City
+    Select Class
+    Click Button Book Flight
+    Confirm Your Booking Without Click price
+    Close Application
